@@ -1,0 +1,175 @@
+    1  ls
+    2  rm -rf terraform_0.15.3_linux_amd64.zip 
+    3  sudo systemctl start grafana-server
+    4  prometheus 
+    5  prometheus --config.file=/opt/prometheus-2.27/prometheus.yml
+    6  sudo apt remove docker-compose 
+    7  sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+    8  sudo chmod +x /usr/local/bin/docker-compose
+    9  docker-compose --version
+   10  clear
+   11  docker --version
+   12  sudo systemctl status grafana-server
+   13  sudo systemctl enable grafana-server
+   14  cd /etc/systemd/system/
+   15  ks
+   16  ls
+   17  vi tomcat.service 
+   18  sudo vi prometheus.service
+   19  cd ~
+   20  sudo vi prometheus
+   21  cd /etc/systemd/system/
+   22  sudo vi prometheus.service
+   23  sudo systemctl status prometheus
+   24  sudo vi prometheus.service
+   25  sudo systemctl status prometheus
+   26  sudo systemctl start prometheus
+   27  sudo systemctl enable prometheus
+   28  cd /etc/systemd/system
+   29  ls
+   30  vi tomcat.service 
+   31  sudo systemctl status jenkins
+   32  sudo systemctl start jenkins
+   33  sudo systemctl status jenkins
+   34  sudo systemctl status jenkins
+   35  sudo cloud-init clean
+   36  jenkins --version
+   37  systemctl status jenkins
+   38  systemctl stop jenkins
+   39  sudo systemctl stop jenkins
+   40  systemctl status jenkins
+   41  sudo apt-get remove jenkins
+   42  sudo apt-get remove --auto-remove jenkins
+   43  sudo apt-get purge jenkins
+   44  sudo apt-get purge --auto-remove jenkins
+   45  systemctl status jenkins
+   46  sudo apt update
+   47  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4EB27DB2A3B88B8B
+   48  sudo apt update
+   49  java -version
+   50  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+   51  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   52  sudo apt install jenkins
+   53  sudo apt update
+   54  sudo apt install ca-certificates
+   55  sudo apt update
+   56  sudo apt install jenkins
+   57  sudo apt install openjdk-11-jdk
+   58  sudo apt-get remove jenkins
+   59  java -version
+   60  sudo update-alternatives --config java
+   61  java -version
+   62  systemctl status jenkins
+   63  systemctl start jenkins
+   64  sudo systemctl start jenkins
+   65  systemctl status jenkins
+   66  netstat -tulpn
+   67  ip a
+   68  systemctl status tomcat.service 
+   69  sudo systemctl start tomcat.service 
+   70  systemctl status tomcat.service 
+   71  netstat -tulpn
+   72  sudo systemctl stop jenkins
+   73  sudo systemctl status jenkins
+   74  sudo systemctl stop tomcat.service 
+   75  sudo systemctl start tomcat.service 
+   76  netstat -tulpn
+   77  ip a
+   78  netstat -tulpn
+   79  sudo systemctl status tomcat.service 
+   80  git 
+   81  git --version
+   82  mkdir ashugit
+   83  cd ashugit/
+   84  git init
+   85  ls -lrth
+   86  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee     /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   87  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]     https://pkg.jenkins.io/debian-stable binary/ | sudo tee     /etc/apt/sources.list.d/jenkins.list > /dev/null
+   88  sudo apt-get update
+   89  sudo apt-get install fontconfig openjdk-11-jre
+   90  sudo apt list
+   91  sudo apt list | grep -i jenkins
+   92  systemctl status jenkins
+   93  systemctl status java
+   94  netstat -antup | grep 8080
+   95  hostname
+   96  java --version
+   97  hostname
+   98  kernel
+   99  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  100  service jenkins satus
+  101  service jenkins status
+  102  java --version
+  103  cd /var/lib/jenkins/workspace/hi/
+  104  ls -lrth
+  105  cat new.txt 
+  106  ls -lrth
+  107  cat ashugit/
+  108  cd ashugit/
+  109  ls
+  110  pwd
+  111  cd ..
+  112  cd /var/lib/jenkins/
+  113  ls
+  114  sudo cat /var/lib/jenkins/secret/initialAdminPasswird
+  115  sudo cat /var/lib/jenkins/secret/initialAdminPassword
+  116  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  117  mkdir ashu
+  118  cd ashu
+  119  pwd
+  120  git init
+  121  ls -lrth
+  122  ls -a
+  123  ls -lrth
+  124  git branch newfeature
+  125  git branch
+  126  git add -a
+  127  git add 
+  128  git add .
+  129  git status
+  130  git commit -m "first commit"
+  131  git branch
+  132  pwd
+  133  sudo git branch
+  134  sudo git branch -a
+  135  git log
+  136  git config --global user.email "ashu@gitry.com"
+  137  git config --global user.name "Ashu"
+  138  git commit -m "first commit"
+  139  git branch
+  140  git branch newfeature
+  141  git branch -a
+  142  git checkout newfeature
+  143  git branch
+  144  ls -lrth
+  145  vi index.html 
+  146  sudo vi index.html 
+  147  git status
+  148  git commit -a 
+  149  git commit -a "added message"
+  150  git commit -m "added message"
+  151  git commit -a -m  "added message"
+  152  git stauts
+  153  git status
+  154  git diff master newfeature
+  155  git merge master
+  156  git chekout master
+  157  git checkout master
+  158  git merge feature
+  159  git merge newfeature
+  160  git status
+  161  git log --oneline
+  162  git remote add origin git@github.com:ashumbd/gitassignment.git
+  163  git push -u origin main
+  164  git remote add origin git@github.com:ashumbd/gitassignment.git
+  165  git push -u origin main
+  166  git branch -M main
+  167  git push -u origin main
+  168  cat .git/config 
+  169  vi .git/config 
+  170  git push -u origin main
+  171  vi .git/config 
+  172  git push -u origin main
+  173  git status
+  174  git pull
+  175  history > history_cmd.txt
